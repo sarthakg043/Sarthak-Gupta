@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Sniglet');
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush');
+
+html{
+	height: 100%;
+}
+                                                                 /* Box & Body Settings */
+body{
+	position: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: 
+	
+}
+.page{
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: transparent;
+}
+
+.site{
+	position: relative;
+	background-color: rgb(100,100,100,);
+	margin: auto;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	padding: 0;
+	border: 2px solid #888;
+	border-radius: 36px;
+	width: 90%;
+	box-shadow: 0 44px 40px 0 black,0 44px 40px 0 black; 
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration:0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s;
+
+}
+/* Add Animation */
+@-webkit-keyframes animatetop {
+	from {top:-300px; opacity:0;}
+	to {top:0; opacity: 1;}
+}
+
+@keyframes animatetop{
+	from: {top: -300px: opacity:0}
+	to: {top: 0; opacity: 1}
+}
+/* Animation Ends */
+                                                                 /* Box & Body Settings ends */
+
+                                                                 /* Content Box */
+.main_area{
+	background-color: transparent;
+	margin: auto;
+	margin-bottom: 10%;
+	width: 80%;
+}
+                                                                 /* Content Box ends */
+
+                                                                 /* Headings */
+.head{
+	font-family: "Caveat Brush", sans-serif;
+	font-size: 5em;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	text-align: center;
+	color: purple;
+	margin: 5% 0 0 0;
+}
+#head{
+	animation: glow 1s linear alternate infinite;
+}
+
+.sub_head{
+	font-family: "Monotype Corsiva", serif;
+	font-size: 2em;
+	color: purple;
+	text-align: center;
+	font-weight: bolder;
+	margin: 0;
+}
+#sub_head{
+	animation: blink 1s linear alternate infinite;
+}
+
+/* Add Animation (Blink, Glow) */
+@keyframes blink{
+	0%{color:black; opacity: .3; text-shadow: 2px 2px 5px red;}
+	50%{opacity: .8; text-shadow: 2px 2px 10px green;}
+	100%{color:white; opacity: 1; text-shadow: 2px 2px 10px blue;}
+}
+
+@keyframes glow{
+	0%{text-shadow: 2px 2px 10px red;}
+	50%{text-shadow: 2px 2px 20px green;}
+	100%{text-shadow: 2px 2px 30px blue;}
+}
+/* Animation (Blink, Glow) ends*/
+                                                                 /* Heading Ends */
+
+                                                                 /* Common Text Settings */
+.text_area{
+	font-family: "Sniglet", serif;
+	border:5px dashed;
+	border-radius: 35px;
+	padding: 5%;
+	margin: 10% auto;
+	font-size: 2rem;
+	box-shadow: 0 24px 28px 0 black,0 6px 20px 0 black;
+}
+                                                                 /* Common Text Settings ends */
+
+                                                                 /* Common Anchor Settings */
+.a{
+	color: green;
+	text-decoration: none;
+	border-radius: 24px;
+	padding: 5px 5px 5px 5px;
+}
+
+.a:hover{
+	color: blue;
+	text-decoration: underline;
+	text-shadow: 5px 5px 10px green;
+	transition: 0.3s;
+
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+                                                                /* Common Anchor Settings ends */
+
+
+                                                                /* Box 1 */
+.title{
+	text-shadow: 0px 5px 5px rgba(0,0,0,0),
+	             5px 8px 12px rgba(0,0,0,0.4),
+	             12px 12px 26px rgba(0,0,0,.6);
+	font-size: 2em;
+	font-family: "Josefin Sans";
+	font-weight: 700;
+	margin:0 0 2% 0;
+}
+                                                                /* Box 1 ends */
+#index{
+	background-color: rgb(190,190,255);
+	border-color: purple;
+}
+
+#index ul li{
+	margin: auto;
+}
+
+#about_me{
+	background-color: rgb(200,225,255);
+	border-color: blue;
+}
+
+#Sarthak_image{
+	border: 8px solid blue;
+	border-radius: 50%;
+	float: right;
+	shape-outside: circle();
+	margin: auto;
+}
+                                                               /* Box 2 ends */
+
+                                                               /* Box 3 */
+#hobbies{
+	background-color: rgb(255,255,200);
+	border-color: red;
+}
+
+/* Hobbie table Settings */
+
+h3{
+	background-color: rgb(100,255,100);
+	border:8px solid;
+	border-radius: 32px;
+    border-top-color: green;
+    border-left-color: green;
+	border-bottom-color: rgb(0,30,0);
+	font-size: 2em;
+	font-family: "Berlin Sans FB";
+	padding: 5%;
+}
+
+h4{
+	border:8px solid;
+	border-radius: 32px;
+    border-top-color: green;
+    border-left-color: green;
+	border-bottom-color: rgb(0,30,0);
+	font-size: 2rem;
+	background-color: rgb(200,255,200);
+	margin: 10%;
+	padding: 5%;
+}
+
+/* Hobbie table Settings ends */
+                                                               /* Box 3 ends */
+
+                                                               /* Box 4 */
+#aims{
+	background-color: rgb(215,215,255);
+	border-color: rgb(200,50,200);
+}
+                                                               /* Box 4 ends */
+                                                               /* Box 5 */
+#friends{
+	background-color: rgb(225,255,205);
+	border-color: rgb(50,100,50);
+}
+
+dt{
+	font-weight: bold;
+}
+dd{
+	margin-left: 10%; 
+}
+
+
+#friends_conclusionline{
+	font-family: "Comic Sans MS", serif;
+	padding: 5px 10px 5px 10px;
+	font-size: 32px;
+	text-align: center;
+}
+                                                               /* Box 5 ends */
+                                                               /* Box 6 starts*/
+#memories{
+	background-color: rgb(195,225,215);
+	border-color: rgb(90,50,50);
+}
+
+.thumbnail{
+	box-shadow: 2px 3px 2px black;
+}
+                                                               /* Box 6 ends*/
+                                                               /* Go to to Button */
+.top{
+	text-align: center;
+	margin-top: 60px; 
+}
+
+.button{
+	text-align: center;
+	margin: 30px auto 0;
+	padding: 20px 25px;
+	background-color: rgb(246,150,128,.8);
+	font-size: 14px;
+	text-align: center;
+	border: 1px solid #2E1263;
+	border-radius: 50px;
+	text-transform: uppercase;
+	text-decoration: none;
+	outline: none;
+}
+.button:hover {
+	transition: 0.3s;
+	background-color: #2E1263;
+	color: #F69680;
+	text-decoration: underline;
+}
